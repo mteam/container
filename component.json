@@ -1,0 +1,11 @@
+{
+  "name": "container",
+  "repo": "mteam/container",
+  "version": "0.1.0",
+  "dependencies": {
+    "mteam/events": "*"
+  },
+  "scripts": [
+    "index.js"
+  ]
+}
