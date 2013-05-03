@@ -5,6 +5,10 @@ module.exports = Container;
 function Container(name) {
   Events.extend(this);
 
+  if (name) {
+    this.name = name;
+  }
+  
   this.components = [];
   this.map = {};
 }
