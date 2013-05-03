@@ -49,8 +49,10 @@ Container.prototype = {
     return this.map[name];
   },
 
-  has: function(name) {
-    return this.map[name] != null;
+  has: function(component) {
+    return typeof component == 'string' ?
+      this.map[component] != null :
+      this.components.indexOf(component) != -1;
   }
 
 };
