@@ -5,6 +5,10 @@
   "dependencies": {
     "mteam/events": "*"
   },
+  "development": {
+    "visionmedia/mocha": "*",
+    "timoxley/assert": "*"
+  },
   "scripts": [
     "index.js"
   ]
